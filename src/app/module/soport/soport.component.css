@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.sidenav {
+  background-color: var(--main-color);
+  padding: 20px;
+  width: 250px;
+  border: 0px;
+}
+
+.sidenav_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.sidenav_top_img {
+  width: 45px;
+}
+
+.sidenav_top_txt {
+  margin-bottom: 0px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.sidenav_body {
+  width: 208px;
+  text-align: center;
+}
+
+.fa-bars {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.fa-bars:active {
+  transform: scale(0.9);
+}
+
+mat-nav-list > a {
+  color: #ffffff !important;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+}
+
+mat-list-item-content {
+  width: 100% !important;
+  background-color: yellow !important;
+}
+
+mat-nav-list > a:hover {
+  background-color: rgba(225, 224, 236, 0.2);
+}
+
+.naviSelect {
+  background-color: rgba(58, 57, 68, 0.2);
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+}
+
+.content_header {
+}
+mat-toolbar {
+  background-color: var(--main-color);
+  border: transparent;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.content_router {
+  width: 100%;
+  height: 89vh;
+  padding: 10px 15px 0px 15px;
+}
